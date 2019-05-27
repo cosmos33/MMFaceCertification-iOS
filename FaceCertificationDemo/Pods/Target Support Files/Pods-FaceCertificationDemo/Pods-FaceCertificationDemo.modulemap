@@ -1,0 +1,6 @@
+framework module Pods_FaceCertificationDemo {
+  umbrella header "Pods-FaceCertificationDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

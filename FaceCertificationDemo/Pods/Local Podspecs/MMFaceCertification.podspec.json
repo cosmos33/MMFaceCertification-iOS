@@ -1,0 +1,37 @@
+{
+  "name": "MMFaceCertification",
+  "version": "1.0.0",
+  "authors": {
+    "ZhuXi": "zhu.xi@immomo.com"
+  },
+  "homepage": "https://github.com/cosmos33/MMFaceCertification--iOS.git",
+  "summary": "MMFaceCertification Frameworks",
+  "source": {
+    "git": "https://github.com/cosmos33/MMFaceCertification--iOS.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "module_name": "MMFaceCertification",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "$(inherited) NO",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreMotion",
+    "MobileCoreServices",
+    "AVFoundation"
+  ],
+  "vendored_frameworks": "Frameworks/**/*.framework",
+  "resources": "Frameworks/MMFaceCertification.framework/*.bundle",
+  "dependencies": {
+    "MMCV": [
+
+    ],
+    "Protobuf": [
+
+    ]
+  }
+}

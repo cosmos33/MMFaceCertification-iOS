@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by MOMO on 2019/5/16.
+  
+*/
+
+"tip_detect_real_title" = "本物のアバター認定";
+"tip_detect_front_face" = "光が十分であることを確認してください、カメラに向かってください";
+"tip_detect_occ_face" = "顔がブロックされています、カメラに向かってください";
+"tip_detect_light" = "光が強すぎるので、位置を変えてください";
+"tip_detect_dark" = "光が暗すぎる、位置を変えてください";
+"tip_detect_blur_face" = "顔がぼやけている、フロントカメラをきれいにしてください";
+"tip_detect_not_center_face" = "カメラを正面に向けてください";
+"tip_detect_blink" = "点滅してください";
+"tip_detect_open_mouth" = "口を開いてください";
+"tip_detect_yaw_right" = "右に曲がってください";
+"tip_detect_yaw_left" = "左に曲がってください";
+"tip_detect_pitch_up" = "頭を上げてください";
+"tip_detect_pitch_down" = "頭を下げてください";
+"tip_detect_success" = "成功したスキャン";
+"tip_detect_preparing" = "環境準備中…";

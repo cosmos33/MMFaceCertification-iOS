@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by MOMO on 2019/5/16.
+  
+*/
+
+"tip_detect_real_title" = "Sertifikasi avatar nyata";
+"tip_detect_front_face" = "Pastikan cahayanya memadai, silakan hadapi kamera";
+"tip_detect_occ_face" = "Wajah terhalang, silakan hadapi kamera";
+"tip_detect_light" = "Lampu terlalu kuat, ubah posisi";
+"tip_detect_dark" = "Lampu terlalu gelap, ubah posisi";
+"tip_detect_blur_face" = "Wajah buram, silakan bersihkan kamera depan";
+"tip_detect_not_center_face" = "Silakan hadapi kamera di depan";
+"tip_detect_blink" = "Tolong berkedip";
+"tip_detect_open_mouth" = "Tolong buka mulutmu";
+"tip_detect_yaw_right" = "Silakan belok kanan";
+"tip_detect_yaw_left" = "Silakan belok kiri";
+"tip_detect_pitch_up" = "Tolong angkat kepalamu";
+"tip_detect_pitch_down" = "Silakan menundukkan kepala Anda";
+"tip_detect_success" = "Pemindaian berhasil";
+"tip_detect_preparing" = "Persiapan lingkungan";
