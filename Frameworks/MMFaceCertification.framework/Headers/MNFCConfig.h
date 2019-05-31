@@ -11,22 +11,35 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM (NSInteger, MNFCDetectionError) {
     MNFCDetectionError_None                 = 0,
+    
+    // 通用错误
     MNFCDetectionError_LocalServiceError    = 1001,     // 本地异常
     MNFCDetectionError_NetworkError         = 1002,     // 网络异常
     MNFCDetectionError_InvalidAppId         = 1003,     // 无效的AppId
     MNFCDetectionError_ServerError          = 1004,     // 服务器异常
+    MNFCDetectionError_SensitivePeople      = 1005,     // 命中敏感人物
     
+    // 真人注册时会返回的错误
     MNFCDetectionError_UserCanceled         = 2001,     // 用户手动取消
     MNFCDetectionError_DetectTimeout        = 2002,     // 检测超时
     MNFCDetectionError_NoLivesness          = 2003,     // 非活体
     MNFCDetectionError_FaceChanged          = 2004,     // 人脸改变
     MNFCDetectionError_LostFace             = 2005,     // 人脸丢失
     MNFCDetectionError_TooManyFailedCount   = 2006,     // 动作检测失败次数过多
+    MNFCDetectionError_NoCameraPermission   = 2007,     // 无相机权限
     
+    // 图片检测时会返回的错误
     MNFCDetectionError_NoFace               = 3001,     // 没有人脸
     MNFCDetectionError_MultiFace            = 3002,     // 多张人脸
     MNFCDetectionError_SmallFace            = 3003,     // 人脸过小
-    
+    MNFCDetectionError_Occ                  = 3004,     // 遮挡
+    MNFCDetectionError_NotFront             = 3005,     // 大侧脸
+    MNFCDetectionError_Blur                 = 3006,     // 模糊
+    MNFCDetectionError_Dark                 = 3007,     // 太暗
+    MNFCDetectionError_Light                = 3008,     // 过曝
+    MNFCDetectionError_HiContrast           = 3009,     // 对比度过高
+    MNFCDetectionError_Lightspot            = 3010,     // 有光斑
+    MNFCDetectionError_LoadImageError       = 3011,     // 图片拉取失败
 };
 
 typedef NS_ENUM (NSInteger, MNFCDetectionType) {

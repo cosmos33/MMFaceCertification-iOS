@@ -37,10 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
  @param personId 指定对比的 personId
  @param image 对比的图片
  @param completionHandler 对比结果回调
+ 注：当图片有质量问题时，也可能会有相似度，质量情况可参照 errorCode
  */
 + (void)comparePerson:(NSString *)personId
                 image:(UIImage *)image
-    completionHandler:(void(^)(CGFloat score, MNFCDetectionError errorCode))completionHandler;
+    completionHandler:(nonnull void(^)(CGFloat score, MNFCDetectionError errorCode))completionHandler;
 
 /**
  人脸对比
@@ -49,10 +50,11 @@ NS_ASSUME_NONNULL_BEGIN
  @param personId 指定对比的 personId
  @param imageURL 对比图片的URL
  @param completionHandler 对比结果回调
+ 注：当图片有质量问题时，也可能会有相似度，质量情况可参照 errorCode
  */
 + (void)comparePerson:(NSString *)personId
              imageURL:(NSString *)imageURL
-    completionHandler:(void(^)(CGFloat score, MNFCDetectionError errorCode))completionHandler;
+    completionHandler:(nonnull void(^)(CGFloat score, MNFCDetectionError errorCode))completionHandler;
 
 /**
  人脸搜索
@@ -65,28 +67,47 @@ NS_ASSUME_NONNULL_BEGIN
  @param count 返回topN个数
  @param image 搜索的图片
  @param completionHandler 搜索回调
+ 注：当图片有质量问题时，也可能会有匹配结果，质量情况可参照 errorCode
  */
 + (void)searchPersonsInSet:(NSString *)setId
                  threshold:(CGFloat)threshold
                      count:(NSUInteger)count
                      image:(UIImage *)image
-         completionHandler:(void(^)(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode))completionHandler;
+         completionHandler:(nonnull void(^)(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode))completionHandler;
 
 /**
  人脸搜索
- 通过URL获取图片，并从指定集合中搜索出与图片中人物相似度高于某值的前N个人物
+ 通过URL获取图片，从指定集合中搜索出与图片中人物相似度高于某值的前N个人物
  
  @param setId 指定搜索的集合ID
  @param threshold 查询相似度阈值
  @param count 返回topN个数
  @param imageURL 搜索图片的URL
  @param completionHandler 搜索回调
+ 注：当图片有质量问题时，也可能会有匹配结果，质量情况可参照 errorCode
  */
 + (void)searchPersonsInSet:(NSString *)setId
                  threshold:(CGFloat)threshold
                      count:(NSUInteger)count
                   imageURL:(NSString *)imageURL
-         completionHandler:(void(^)(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode))completionHandler;
+         completionHandler:(nonnull void(^)(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode))completionHandler;
+
+/**
+ 人脸搜索
+ 从指定集合中搜索出与对应的personId的人物相似度高于某值的前N个人物
+ 
+ @param setId 指定搜索的集合ID
+ @param threshold 查询相似度阈值
+ @param count 返回topN个数
+ @param personId 搜索人物的personId
+ @param completionHandler 搜索回调
+ 注：当图片有质量问题时，也可能会有匹配结果，质量情况可参照 errorCode
+ */
++ (void)searchPersonsInSet:(NSString *)setId
+                 threshold:(CGFloat)threshold
+                     count:(NSUInteger)count
+                  personId:(NSString *)personId
+         completionHandler:(nonnull void(^)(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode))completionHandler;
 
 @end
 

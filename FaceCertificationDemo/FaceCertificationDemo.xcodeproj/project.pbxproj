@@ -14,6 +14,8 @@
 		FAAB0265229BF1F800D3C10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAB0264229BF1F800D3C10D /* Assets.xcassets */; };
 		FAAB0268229BF1F800D3C10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAB0266229BF1F800D3C10D /* LaunchScreen.storyboard */; };
 		FAAB026B229BF1F800D3C10D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB026A229BF1F800D3C10D /* main.m */; };
+		FAB1B551229FEAAD00758DB0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1B54D229FEAAD00758DB0 /* SearchViewController.m */; };
+		FAB1B552229FEAAD00758DB0 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1B550229FEAAD00758DB0 /* MatchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		FAAB0267229BF1F800D3C10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAB0269229BF1F800D3C10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAB026A229BF1F800D3C10D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB1B54D229FEAAD00758DB0 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FAB1B54E229FEAAD00758DB0 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FAB1B54F229FEAAD00758DB0 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		FAB1B550229FEAAD00758DB0 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		FAAB025A229BF1F700D3C10D /* FaceCertificationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FAB1B54F229FEAAD00758DB0 /* MatchViewController.h */,
+				FAB1B550229FEAAD00758DB0 /* MatchViewController.m */,
+				FAB1B54E229FEAAD00758DB0 /* SearchViewController.h */,
+				FAB1B54D229FEAAD00758DB0 /* SearchViewController.m */,
 				FAAB025B229BF1F700D3C10D /* AppDelegate.h */,
 				FAAB025C229BF1F700D3C10D /* AppDelegate.m */,
 				FAAB025E229BF1F700D3C10D /* ViewController.h */,
@@ -245,6 +255,8 @@
 			files = (
 				FAAB0260229BF1F700D3C10D /* ViewController.m in Sources */,
 				FAAB026B229BF1F800D3C10D /* main.m in Sources */,
+				FAB1B551229FEAAD00758DB0 /* SearchViewController.m in Sources */,
+				FAB1B552229FEAAD00758DB0 /* MatchViewController.m in Sources */,
 				FAAB025D229BF1F700D3C10D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
