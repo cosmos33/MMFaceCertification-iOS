@@ -59,9 +59,9 @@ pod 'MMFaceCertification'
 
 | 参数 | 说明 |
 | :--- | :--- |
-| detectionType | **MNFCDetectionType: **检测模式，分为交互式和静默式，默认为交互式 |
+| detectionType | **MNFCDetectionType:** 检测模式，分为交互式和静默式，默认为交互式 |
 | motionDetectionCount | **NSUInteger:** 指定交互式扫脸模式下交互动作的数量，默认为4 |
-| resultCallBack | **Block: **处理认证结果的回调 |
+| resultCallBack | **Block:** 处理认证结果的回调 |
 
 ### 开启认证界面控制器
 
@@ -90,20 +90,28 @@ pod 'MMFaceCertification'
 
 ```
 // 图片搜索
-[MNFCService searchPersonsInSet:setId    // 集合Id
-             threshold:threshold         // 相似度阈值                    
-             count:count                 // 查询结果最大数量, 即topN
-             image:image                 // 图片
-             completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+[MNFCService searchPersonsInSet:setId       // 集合Id
+                      threshold:threshold   // 相似度阈值                    
+                          count:count       // 查询结果最大数量, 即topN
+                          image:image       // 图片
+              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
 
 }];
 
 // 图片URL搜索
-[MNFCService searchPersonsInSet:setId    // 集合Id
-             threshold:threshold         // 相似度阈值
-             count:count                 // 查询结果最大数量, 即topN
-             imageURL:imageURL           // 图片URL
-             completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+[MNFCService searchPersonsInSet:setId       // 集合Id
+                      threshold:threshold   // 相似度阈值
+                          count:count       // 查询结果最大数量, 即topN
+                       imageURL:imageURL    // 图片URL
+              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+
+}];
+
+[MNFCService searchPersonsInSet:setId       // 集合Id
+                      threshold:threshold   // 相似度阈值
+                          count:count       // 查询结果最大数量, 即topN
+                       personId:personId    // 人脸Id
+              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
 
 }];
 ```
