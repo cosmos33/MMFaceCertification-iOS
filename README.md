@@ -1,4 +1,4 @@
-# MMFaceCertification--iOS
+# MMFaceCertification-iOS
 
 ## INTRODUCE
 
