@@ -91,7 +91,7 @@ pod 'MMFaceCertification'
 ```
 // 图片搜索
 [MNFCService searchPersonsInSet:setId       // 集合Id
-                      threshold:threshold   // 相似度阈值                    
+                      threshold:threshold   // 相似度阈值 0.0~1.0                  
                           count:count       // 查询结果最大数量, 即topN
                           image:image       // 图片
               completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
@@ -100,15 +100,16 @@ pod 'MMFaceCertification'
 
 // 图片URL搜索
 [MNFCService searchPersonsInSet:setId       // 集合Id
-                      threshold:threshold   // 相似度阈值
+                      threshold:threshold   // 相似度阈值 0.0~1.0
                           count:count       // 查询结果最大数量, 即topN
                        imageURL:imageURL    // 图片URL
               completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
 
 }];
 
+// 人脸Id搜索
 [MNFCService searchPersonsInSet:setId       // 集合Id
-                      threshold:threshold   // 相似度阈值
+                      threshold:threshold   // 相似度阈值 0.0~1.0
                           count:count       // 查询结果最大数量, 即topN
                        personId:personId    // 人脸Id
               completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {

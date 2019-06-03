@@ -61,7 +61,10 @@
     [picker dismissViewControllerAnimated:YES completion:nil];
     //获取到的图片
     UIImage * image = [info valueForKey:UIImagePickerControllerEditedImage];
-     NSString *setId = self.setIdTF.text ? : @"";
+    if (!image) {
+        image = [info valueForKey:UIImagePickerControllerOriginalImage];
+    }
+    NSString *setId = self.setIdTF.text ? : @"";
     [self.activityIndicator startAnimating];
     [MNFCService searchPersonsInSet:setId threshold:0.2 count:10 image:image completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
         [self.activityIndicator stopAnimating];
