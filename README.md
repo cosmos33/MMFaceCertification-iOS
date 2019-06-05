@@ -15,6 +15,9 @@ iOS版本：9.0+
 * 在工程Podfile文件中添加如下代码：
 
 ```
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/cosmos33/MMSpecs.git'
+
 pod 'MMFaceCertification'
 ```
 
