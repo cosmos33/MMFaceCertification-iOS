@@ -66,4 +66,12 @@ typedef NS_ENUM (NSInteger, MNFCDetectionType) {
 
 @end
 
+@interface MNFCThemes : NSObject
+
+@property (nonatomic, copy, nullable) NSString *detectionTitle;
+
++ (MNFCThemes *)defultThemes;
+
+@end
+
 NS_ASSUME_NONNULL_END

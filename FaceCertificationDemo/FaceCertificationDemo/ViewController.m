@@ -36,7 +36,10 @@
     config.resultCallBack = ^(NSString * _Nullable personId, MNFCDetectionError errorCode) {
         [self handleDetectionResult:personId errorCode:errorCode];
     };
-    [MNFCService startCertificationWithConfig:config];
+    
+    MNFCThemes *themes = [MNFCThemes new];
+    themes.detectionTitle = @"自定义标题";
+    [MNFCService startCertificationWithConfig:config themes:themes];
 }
 
 - (void)interactiveDetect {
