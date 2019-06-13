@@ -40,6 +40,18 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)startCertificationWithConfig:(MNFCDetectionConfig *)config themes:(MNFCThemes * _Nullable)themes;
 
 /**
+ 扫脸认证注册
+ 通过Modal的形式展示出扫脸视图控制器，进行扫脸认证注册
+ 
+ @param config 扫脸配置
+ @param themes 界面配置
+ @param presentingViewController 用于present扫脸界面的控制器
+ */
++ (void)startCertificationWithConfig:(MNFCDetectionConfig *)config
+                              themes:(MNFCThemes * _Nullable)themes
+            presentingViewController:(UIViewController * _Nullable)presentingViewController;
+
+/**
  人脸对比
  识别图片中的人物与指定 personId 的人物的相似度
 
