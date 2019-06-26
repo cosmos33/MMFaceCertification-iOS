@@ -30,9 +30,9 @@
     NSString *urlStr = self.imageURLTF.text;
     NSString *setId = self.setIdTF.text ? : @"";
     [self.activityIndicator startAnimating];
-    [MNFCService searchPersonsInSet:setId threshold:0.43 count:10 imageURL:urlStr completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+    [MNFCService searchPersonsInSet:setId threshold:0.43 count:10 imageURL:urlStr completionHandler:^(MNSearchResult * _Nullable searchResult, MNFCDetectionError errorCode) {
         [self.activityIndicator stopAnimating];
-        [self handleDetectionResult:matchPersons errorCode:errorCode];
+        [self handleDetectionResult:searchResult errorCode:errorCode];
     }];
 }
 
@@ -66,19 +66,18 @@
     }
     NSString *setId = self.setIdTF.text ? : @"";
     [self.activityIndicator startAnimating];
-    [MNFCService searchPersonsInSet:setId threshold:0.2 count:10 image:image completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+    [MNFCService searchPersonsInSet:setId threshold:0.2 count:10 image:image completionHandler:^(MNSearchResult * _Nullable searchResult, MNFCDetectionError errorCode) {
         [self.activityIndicator stopAnimating];
-        [self handleDetectionResult:matchPersons errorCode:errorCode];
+        [self handleDetectionResult:searchResult errorCode:errorCode];
     }];
 }
 
-- (void)handleDetectionResult:(NSArray<MNMatchResult *> *)matchPersons errorCode:(MNFCDetectionError)errorCode {
+- (void)handleDetectionResult:(MNSearchResult *)searchResult errorCode:(MNFCDetectionError)errorCode {
     NSMutableString *message = [NSMutableString string];
-    if (errorCode) {
-        [message appendFormat:@"错误码：%ld\n", errorCode];
-    }
-    if (matchPersons.count) {
-        for (MNMatchResult * p in matchPersons) {
+    [message appendFormat:@"错误码：%ld\n", (long)errorCode];
+    [message appendFormat:@"质量：%ld\n", (long)searchResult.qualityCode];
+    if (searchResult.matchResults.count) {
+        for (MNMatchResult * p in searchResult.matchResults) {
             [message appendFormat:@"personId %@\n sorce %lf\n\n", p.personId, p.score];
         }
     }

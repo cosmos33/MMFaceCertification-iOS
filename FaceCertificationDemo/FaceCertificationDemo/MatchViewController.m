@@ -29,9 +29,9 @@
     NSString *urlStr = self.imageURLTF.text;
     NSString *personId = self.personIdTF.text ? : @"";
     [self.activityIndicator startAnimating];
-    [MNFCService comparePerson:personId imageURL:urlStr completionHandler:^(CGFloat score, MNFCDetectionError errorCode) {
+    [MNFCService comparePerson:personId imageURL:urlStr completionHandler:^(MNCompareResult * _Nullable compareResult, MNFCDetectionError errorCode) {
         [self.activityIndicator stopAnimating];
-        [self handleDetectionResult:score errorCode:errorCode];
+        [self handleDetectionResult:compareResult errorCode:errorCode];
     }];
 }
 
@@ -65,15 +65,15 @@
     }
     NSString *personId = self.personIdTF.text ? : @"";
     [self.activityIndicator startAnimating];
-    [MNFCService comparePerson:personId image:image completionHandler:^(CGFloat score, MNFCDetectionError errorCode) {
+    [MNFCService comparePerson:personId image:image completionHandler:^(MNCompareResult * _Nullable compareResult, MNFCDetectionError errorCode) {
         [self.activityIndicator stopAnimating];
-        [self handleDetectionResult:score errorCode:errorCode];
+        [self handleDetectionResult:compareResult errorCode:errorCode];
     }];
 }
 
-- (void)handleDetectionResult:(CGFloat)score errorCode:(MNFCDetectionError)errorCode {
+- (void)handleDetectionResult:(MNCompareResult *)compareResult errorCode:(MNFCDetectionError)errorCode {
     NSString *title = @"检测结果";
-    NSString *message = [NSString stringWithFormat:@"相似度为：%f 错误码：%ld", score, errorCode];
+    NSString *message = [NSString stringWithFormat:@"错误码：%ld\n相似度：%lf\n颜值：%lf\n质量：%ld", (long)errorCode, compareResult.score, compareResult.beautyScore, compareResult.qualityCode];
     [self presentResultAlertWithTitle:title message:message];
 }
 

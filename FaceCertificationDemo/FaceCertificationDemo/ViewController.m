@@ -59,7 +59,7 @@
         message =[NSString stringWithFormat:@"注册ID为：%@", personId];
     } else {
         title = @"注册失败";
-        message =[NSString stringWithFormat:@"错误码：%ld", errorCode];
+        message =[NSString stringWithFormat:@"错误码：%ld", (long)errorCode];
     }
     [self presentResultAlertWithTitle:title message:message];
 }
