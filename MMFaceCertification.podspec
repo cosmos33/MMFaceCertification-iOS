@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = 'MMFaceCertification'
-    s.version      = '0.0.1'
+    s.version      = '1.0.0'
     s.summary      = 'MMFaceCertification Frameworks'
     s.module_name = 'MMFaceCertification'
     s.description      = <<-DESC
@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/cosmos33/MMFaceCertification-iOS.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '9.0'
-    s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
     s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
     s.frameworks = 'UIKit', 'CoreMotion', 'MobileCoreServices', 'AVFoundation'
     s.vendored_frameworks = 'Frameworks/**/*.framework'

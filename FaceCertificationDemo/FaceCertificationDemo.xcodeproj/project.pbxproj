@@ -404,6 +404,7 @@
 				DEVELOPMENT_TEAM = EE5R8VDWG7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceCertificationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,6 +424,7 @@
 				DEVELOPMENT_TEAM = EE5R8VDWG7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceCertificationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

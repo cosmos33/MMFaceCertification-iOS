@@ -200,7 +200,8 @@
 		3E51CFE3A69D3006AFEBB970A682DA2E /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = objectivec/GPBExtensionRegistry.m; sourceTree = "<group>"; };
 		3F043EA13D632F939EE92AABA1AAF3A0 /* MomoAPCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MomoAPCore.framework; path = Frameworks/MomoAPCore.framework; sourceTree = "<group>"; };
 		3F1314ECE41CE0F5BBB05FAAB8804BBD /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
-		3F99E0AF39AFB17464DAEF31C813BB99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3FDBCB6D71E20A4E2013609872A57BD5 /* MMFaceCertification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMFaceCertification.framework; path = Frameworks/MMFaceCertification.framework; sourceTree = "<group>"; };
+		420F419733B236F3946CE1548E2C0484 /* MMFaceCertification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMFaceCertification.xcconfig; sourceTree = "<group>"; };
 		425C41B53A46ED2C76ED6F96AC5456FD /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
 		4288C5C5AB677844E7ACF2E8ACFDF3CE /* ZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipArchive-umbrella.h"; sourceTree = "<group>"; };
 		453A3A12461A10D61E85EE59DFA7A9C7 /* Pods-FaceCertificationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaceCertificationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -222,14 +223,15 @@
 		606CC86ED2546B5696A32412EE7496AA /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
 		6A738C8B7438E4CC3EFC8A4B66EEC6D7 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
 		6BE677D2CAB3CBDB8081E93E2B7AC81C /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Type.pbobjc.m; path = objectivec/google/protobuf/Type.pbobjc.m; sourceTree = "<group>"; };
+		6D51DC6C68D335C515AF913865F054A1 /* MNFCResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MNFCResources.bundle; path = Frameworks/MMFaceCertification.framework/MNFCResources.bundle; sourceTree = "<group>"; };
 		6F7DF7B4EE8ABF56031BB628960AABAA /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = objectivec/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
 		708898C684F8F6B17930FB80A63839D9 /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = objectivec/GPBMessage.h; sourceTree = "<group>"; };
-		719CFE14E846C8E28C28714D412EC337 /* MMFaceCertification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMFaceCertification.framework; path = Frameworks/MMFaceCertification.framework; sourceTree = "<group>"; };
 		76FABB37D05D4D9CABF1323403B63328 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
-		786892A3E3AEA3B1059F63D3D4C54A05 /* MMFaceCertification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMFaceCertification.xcconfig; sourceTree = "<group>"; };
 		7CAAB542F3B283B76019739CF760FF84 /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = objectivec/GPBBootstrap.h; sourceTree = "<group>"; };
 		7FAD5C86A1EBC81E4A799F8F63534052 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
 		81FAC9E0C9B3D4E19A177B9C657F66BF /* Pods-FaceCertificationDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceCertificationDemo-resources.sh"; sourceTree = "<group>"; };
+		82DA5DCD043FD0550A7717BBE34DDB65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		842A5D0F6844BF351A63840FDDD547BB /* MMFaceCertification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMFaceCertification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84E151DB59F0D290B86CE78ACD75E0C2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Frameworks/opencv2.framework; sourceTree = "<group>"; };
 		87156D5A7FB83437ACD5A2574345716A /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
 		8AB8F1426F038D5DBA91BBE519436B38 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
@@ -239,13 +241,13 @@
 		966757BDE2EB22384F40E74F46F0C8A2 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E26751765AB550FAB45A9D14DEF0A06 /* Pods-FaceCertificationDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaceCertificationDemo-Info.plist"; sourceTree = "<group>"; };
+		A1FBF525F065D92DDC4AB2FAD078FCF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A233D3BA9EED471D66742AEE88FE949C /* Pods_FaceCertificationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FaceCertificationDemo.framework; path = "Pods-FaceCertificationDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3199705CAB011D7A2E7CF6ACAEF9E1B /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
 		A456FFB4F2FDEA6A556F1C58723D2165 /* Pods-FaceCertificationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceCertificationDemo-umbrella.h"; sourceTree = "<group>"; };
 		A52A8F26ECD2D390794C95FCB4A3CDC7 /* Pods-FaceCertificationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaceCertificationDemo-frameworks.sh"; sourceTree = "<group>"; };
 		A6B21715AE0907F870E09BA7F3A9DA85 /* Pods-FaceCertificationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceCertificationDemo-dummy.m"; sourceTree = "<group>"; };
 		A7B392954CAEB315348FEADE4A45F6D2 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
-		A872DB863FC6B2E20A160FC0B4640414 /* MNFCResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MNFCResources.bundle; path = Frameworks/MMFaceCertification.framework/MNFCResources.bundle; sourceTree = "<group>"; };
 		ABAA757EC97B9B0111642A7E34CDE7F3 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
 		ABF342FA5897DEF2AE4B1F65B7D65086 /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Timestamp.pbobjc.m; path = objectivec/google/protobuf/Timestamp.pbobjc.m; sourceTree = "<group>"; };
 		B0E94DE5F92CE353B3B1D64E02AE7D6A /* Duration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Duration.pbobjc.m; path = objectivec/google/protobuf/Duration.pbobjc.m; sourceTree = "<group>"; };
@@ -255,8 +257,8 @@
 		B91866C0B10EB84CE53EAAF6B3876709 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
 		BD7DE06745AEE8EA0256260173B896AB /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
 		BEB48BA210ED635CCA6B95FCEFAD8E65 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
+		C05FE37316842514A7E4A8B6F4A42D5F /* MNFCLanguage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MNFCLanguage.bundle; path = Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle; sourceTree = "<group>"; };
 		C1342954C6A5F22C937FF03213F6E6CF /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZipArchive.framework; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1713CB9D6240B17023BBA465B7715A5 /* MNFCLanguage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MNFCLanguage.bundle; path = Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle; sourceTree = "<group>"; };
 		C2546234B405BB2570CF8E7CDA7B9C0B /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
 		C7E8E69F9B7A90DACA69D49B659E48F6 /* protobufc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = protobufc.framework; path = Frameworks/protobufc.framework; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -281,7 +283,6 @@
 		EC404CF11A29CCFCE12B47541009FB54 /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
 		ECF0CD933C4DE63291C024E53FEF7137 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
 		F3EB2B4C9828D22FDBC27CD8874E44E3 /* Protobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-umbrella.h"; sourceTree = "<group>"; };
-		FA6C293E6497BDEE01A23BF6DCF12E82 /* MMFaceCertification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMFaceCertification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE4E95F4A336E8B1D4CCC7A4B54606B8 /* ZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipArchive-prefix.pch"; sourceTree = "<group>"; };
 		FEC09F27FC812871F44F6107764DB825 /* MomoCVCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MomoCVCore.framework; path = Frameworks/MomoCVCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -314,13 +315,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		269B7E657545BD61B7386592725EFABB /* Support Files */ = {
+		3ACAAD5A63FCE3F7F40E87074E7F59A9 /* MMFaceCertification */ = {
 			isa = PBXGroup;
 			children = (
-				786892A3E3AEA3B1059F63D3D4C54A05 /* MMFaceCertification.xcconfig */,
+				763F55325BC6283FB09CCBF678ACA51C /* Frameworks */,
+				8C286B31222CA4838540876410695BBD /* Pod */,
+				7F9C42B761B48B3C7FB12936A52620CE /* Resources */,
+				A7D3B8C234A76B213C4EE1F39F079986 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "FaceCertificationDemo/Pods/Target Support Files/MMFaceCertification";
+			name = MMFaceCertification;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3CBA952DE796F283BC0C4BF5434A9FCB /* Support Files */ = {
@@ -335,26 +339,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZipArchive";
-			sourceTree = "<group>";
-		};
-		48485FB54B002FE0B0B7EB2E8DEEA0D3 /* MMFaceCertification */ = {
-			isa = PBXGroup;
-			children = (
-				557D87B9E2A7FAD80366A94810778206 /* Frameworks */,
-				F5A0DC6FDF7DB18D5424B2D32557B7E6 /* Pod */,
-				D965AD496AAFD4139A98D7FE14E55537 /* Resources */,
-				269B7E657545BD61B7386592725EFABB /* Support Files */,
-			);
-			name = MMFaceCertification;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		557D87B9E2A7FAD80366A94810778206 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				719CFE14E846C8E28C28714D412EC337 /* MMFaceCertification.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5B571DC934011FBA4A02AC45F69CD2E2 /* Support Files */ = {
@@ -374,6 +358,33 @@
 				C1342954C6A5F22C937FF03213F6E6CF /* ZipArchive.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		763F55325BC6283FB09CCBF678ACA51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBCB6D71E20A4E2013609872A57BD5 /* MMFaceCertification.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9C42B761B48B3C7FB12936A52620CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C05FE37316842514A7E4A8B6F4A42D5F /* MNFCLanguage.bundle */,
+				6D51DC6C68D335C515AF913865F054A1 /* MNFCResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8C286B31222CA4838540876410695BBD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82DA5DCD043FD0550A7717BBE34DDB65 /* LICENSE */,
+				842A5D0F6844BF351A63840FDDD547BB /* MMFaceCertification.podspec */,
+				A1FBF525F065D92DDC4AB2FAD078FCF1 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		92F067504AD5FE9F4CF445FEDE1621D9 /* Support Files */ = {
@@ -404,7 +415,7 @@
 		965E5F7F1006B07FC8E2B7398E6BE828 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48485FB54B002FE0B0B7EB2E8DEEA0D3 /* MMFaceCertification */,
+				3ACAAD5A63FCE3F7F40E87074E7F59A9 /* MMFaceCertification */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -433,6 +444,15 @@
 			);
 			name = "Pods-FaceCertificationDemo";
 			path = "Target Support Files/Pods-FaceCertificationDemo";
+			sourceTree = "<group>";
+		};
+		A7D3B8C234A76B213C4EE1F39F079986 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				420F419733B236F3946CE1548E2C0484 /* MMFaceCertification.xcconfig */,
+			);
+			name = "Support Files";
+			path = "FaceCertificationDemo/Pods/Target Support Files/MMFaceCertification";
 			sourceTree = "<group>";
 		};
 		AB95C3C08F98B56AEF5AC2948FB66A5A /* Resources */ = {
@@ -560,24 +580,6 @@
 			);
 			name = Protobuf;
 			path = Protobuf;
-			sourceTree = "<group>";
-		};
-		D965AD496AAFD4139A98D7FE14E55537 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C1713CB9D6240B17023BBA465B7715A5 /* MNFCLanguage.bundle */,
-				A872DB863FC6B2E20A160FC0B4640414 /* MNFCResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F5A0DC6FDF7DB18D5424B2D32557B7E6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FA6C293E6497BDEE01A23BF6DCF12E82 /* MMFaceCertification.podspec */,
-				3F99E0AF39AFB17464DAEF31C813BB99 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F70B36D6FC1818BEBC9304F30128B19F /* Frameworks */ = {
@@ -1175,7 +1177,7 @@
 		};
 		ADA513F659F03BE84AEA3CC2BE28BBA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 786892A3E3AEA3B1059F63D3D4C54A05 /* MMFaceCertification.xcconfig */;
+			baseConfigurationReference = 420F419733B236F3946CE1548E2C0484 /* MMFaceCertification.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1264,7 +1266,7 @@
 		};
 		F7FDC3F283960BC34E7270162DBBCC61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 786892A3E3AEA3B1059F63D3D4C54A05 /* MMFaceCertification.xcconfig */;
+			baseConfigurationReference = 420F419733B236F3946CE1548E2C0484 /* MMFaceCertification.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
