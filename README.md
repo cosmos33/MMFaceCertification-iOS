@@ -77,14 +77,15 @@ pod 'MMFaceCertification'
 图片匹配功能可以对图片中的人物进行识别，获得与指定personId的相似度分值
 
 ```
- // 图片识别接口
- [MNFCService comparePerson:personId image:image completionHandler:^(CGFloat score, MNFCDetectionError errorCode) {
-        //获得相似度分值
- }];
- // 图片URL识别接口
- [MNFCService comparePerson:personId imageURL:imageURL completionHandler:^(float score, MNFCDetectionError errorCode) {
-        //获得相似度分值
- }];
+// 图片识别接口
+[MNFCService comparePerson:personId image:image completionHandler:^(MNCompareResult * _Nullable compareResult, MNFCDetectionError errorCode) {
+    //获得比对结果
+}];
+
+// 图片URL识别接口
+[MNFCService comparePerson:personId imageURL:imageURL completionHandler:^(MNCompareResult * _Nullable compareResult, MNFCDetectionError errorCode) {
+    //获得比对结果
+}];
 ```
 
 ## 图片搜索
@@ -97,7 +98,7 @@ pod 'MMFaceCertification'
                       threshold:threshold   // 相似度阈值 0.0~1.0                  
                           count:count       // 查询结果最大数量, 即topN
                           image:image       // 图片
-              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+              completionHandler:^(MNSearchResult * _Nullable searchResult, MNFCDetectionError errorCode) {
 
 }];
 
@@ -106,7 +107,7 @@ pod 'MMFaceCertification'
                       threshold:threshold   // 相似度阈值 0.0~1.0
                           count:count       // 查询结果最大数量, 即topN
                        imageURL:imageURL    // 图片URL
-              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+              completionHandler:^(MNSearchResult * _Nullable searchResult, MNFCDetectionError errorCode) {
 
 }];
 
@@ -115,7 +116,7 @@ pod 'MMFaceCertification'
                       threshold:threshold   // 相似度阈值 0.0~1.0
                           count:count       // 查询结果最大数量, 即topN
                        personId:personId    // 人脸Id
-              completionHandler:^(NSArray<MNMatchResult *> * _Nullable matchPersons, MNFCDetectionError errorCode) {
+              completionHandler:^(MNSearchResult * _Nullable searchResult, MNFCDetectionError errorCode) {
 
 }];
 ```
