@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-resources.sh
+${PODS_ROOT}/MMCV/Resources/MomoCVResources.bundle
+${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle
+${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCResources.bundle

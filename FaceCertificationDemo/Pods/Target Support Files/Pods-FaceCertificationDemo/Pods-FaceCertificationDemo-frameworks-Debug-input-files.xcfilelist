@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework

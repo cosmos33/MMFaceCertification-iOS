@@ -1,13 +1,16 @@
 PODS:
-  - MMCV (1.0.10):
+  - MMCV (1.0.12):
     - ZipArchive
   - MMFaceCertification (1.0.0):
     - MMCV
+    - MMNNetwork
     - Protobuf
-  - Protobuf (3.8.0)
+  - MMNNetwork (1.0.0)
+  - Protobuf (3.9.0)
   - ZipArchive (1.4.0)
 
 DEPENDENCIES:
+  - MMCV (= 1.0.12)
   - MMFaceCertification (from `../`)
 
 SPEC REPOS:
@@ -16,17 +19,19 @@ SPEC REPOS:
     - ZipArchive
   https://github.com/cosmos33/MMSpecs.git:
     - MMCV
+    - MMNNetwork
 
 EXTERNAL SOURCES:
   MMFaceCertification:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMCV: e66540d954c6767e815640b2404edea98430b7ac
-  MMFaceCertification: 3105e810337dd699b43d0e22a62b6dcc5b316372
-  Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
+  MMCV: 39aed93e7f4eb724849743860e81ac9021805018
+  MMFaceCertification: c17edd67dd2f68a6fea9b84c3f7d6140bd504dc5
+  MMNNetwork: 9e8427667415d85861fc598700db38ae456e607d
+  Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: ade3655e2b3b4e759c27c8d5118f755a5508b115
+PODFILE CHECKSUM: 36be4f9bc33ae8b19f8e833ee07dc390f113cfe5
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.4

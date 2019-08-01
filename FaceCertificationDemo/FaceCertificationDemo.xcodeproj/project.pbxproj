@@ -180,18 +180,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZipArchive.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -204,20 +197,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-resources.sh",
-				"${PODS_ROOT}/MMCV/Resources/MomoCVResources.bundle",
-				"${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle",
-				"${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MomoCVResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MNFCLanguage.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MNFCResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
