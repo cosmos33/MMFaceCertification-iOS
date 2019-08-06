@@ -6,5 +6,5 @@ platform :ios, '9.0'
 use_frameworks!
 target 'FaceCertificationDemo' do
   pod 'MMFaceCertification' , :path => '../'
-  pod 'MMCV', '1.0.12'
+  pod 'MMCV', '1.0.13'
 end
