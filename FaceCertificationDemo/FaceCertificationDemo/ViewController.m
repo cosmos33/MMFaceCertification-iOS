@@ -20,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [MNFCService configAppId:@"YourAppId"];
+    if (![MNFCService isPrepared]) {
+        [MNFCService prepareEnvironment:^(BOOL prepared) {
+            
+        }];
+    }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

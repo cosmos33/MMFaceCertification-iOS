@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "Silakan menundukkan kepala Anda";
 "tip_detect_success" = "Pemindaian berhasil";
 "tip_detect_preparing" = "Persiapan lingkungan";
+"tip_detect_make_sure_exit" = "Anda yakin akan berhenti?";
+"tip_detect_cancel" = "Batalkan";
+"tip_detect_confirm" = "Tentukan";

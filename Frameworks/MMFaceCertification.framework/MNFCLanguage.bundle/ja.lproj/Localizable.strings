@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "頭を下げてください";
 "tip_detect_success" = "成功したスキャン";
 "tip_detect_preparing" = "環境準備中…";
+"tip_detect_make_sure_exit" = "終了しますか？";
+"tip_detect_cancel" = "キャンセル";
+"tip_detect_confirm" = "はい";

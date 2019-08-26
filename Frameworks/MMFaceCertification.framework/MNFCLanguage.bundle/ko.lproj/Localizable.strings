@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "머리 숙여주세요";
 "tip_detect_success" = "성공적인 스캔";
 "tip_detect_preparing" = "환경 준비";
+"tip_detect_make_sure_exit" = "종료 하시겠습니까?";
+"tip_detect_cancel" = "취소";
+"tip_detect_confirm" = "결정";

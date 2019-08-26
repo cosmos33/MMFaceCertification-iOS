@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "โปรดก้มหัวของคุณ";
 "tip_detect_success" = "สแกนสำเร็จ";
 "tip_detect_preparing" = "การเตรียมสิ่งแวดล้อม";
+"tip_detect_make_sure_exit" = "คุณแน่ใจหรือว่าจะเลิก";
+"tip_detect_cancel" = "ยกเลิก";
+"tip_detect_confirm" = "กำหนด";

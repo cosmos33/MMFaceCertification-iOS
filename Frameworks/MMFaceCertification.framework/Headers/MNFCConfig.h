@@ -9,6 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 真人检测错误码
+ */
 typedef NS_ENUM (NSInteger, MNFCDetectionError) {
     MNFCDetectionError_None                 = 0,
     
@@ -34,11 +37,17 @@ typedef NS_ENUM (NSInteger, MNFCDetectionError) {
     MNFCDetectionError_InvalidSetId         = 3003,     // 无效的SetId
 };
 
+/**
+ 真人检测类型
+ */
 typedef NS_ENUM (NSInteger, MNFCDetectionType) {
     MNFCDetectionTypeInteractive = 0,  // 交互式
     MNFCDetectionTypeSilent            // 静默式
 };
 
+/**
+ 真人检测器配置
+ */
 @interface MNFCDetectionConfig : NSObject
 
 /**
@@ -58,6 +67,9 @@ typedef NS_ENUM (NSInteger, MNFCDetectionType) {
 
 @end
 
+/**
+ 真人检测UI配置
+ */
 @interface MNFCThemes : NSObject
 
 @property (nonatomic, copy, nullable) NSString *detectionTitle;

@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "请低低头";
 "tip_detect_success" = "扫描成功";
 "tip_detect_preparing" = "环境准备中...";
+"tip_detect_make_sure_exit" = "确定退出吗？";
+"tip_detect_cancel" = "取消";
+"tip_detect_confirm" = "确定";

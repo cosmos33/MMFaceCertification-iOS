@@ -21,3 +21,6 @@
 "tip_detect_pitch_down" = "Please bow your head";
 "tip_detect_success" = "Successful scan";
 "tip_detect_preparing" = "Environmental preparation...";
+"tip_detect_make_sure_exit" = "Are you sure to quit?";
+"tip_detect_cancel" = "No";
+"tip_detect_confirm" = "Yes";

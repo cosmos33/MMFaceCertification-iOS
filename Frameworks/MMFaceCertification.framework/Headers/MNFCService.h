@@ -11,6 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 真人认证SDK服务
+ */
 @interface MNFCService : NSObject
 
 @property (class, strong, readonly) NSString *appId;
@@ -21,6 +24,18 @@ NS_ASSUME_NONNULL_BEGIN
  @param appId appId
  */
 + (void)configAppId:(NSString *)appId;
+
+/**
+ 判断服务环境是否准备好
+ */
++ (BOOL)isPrepared;
+
+/**
+ 准备服务环境
+
+ @param completionHandler 准备结果
+ */
++ (void)prepareEnvironment:(void(^_Nullable)(BOOL prepared))completionHandler;
 
 /**
  扫脸认证注册

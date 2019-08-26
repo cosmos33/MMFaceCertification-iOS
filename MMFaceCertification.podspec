@@ -22,5 +22,7 @@ Pod::Spec.new do |s|
     s.dependency 'MMCV'
     s.dependency 'Protobuf'
     s.dependency 'MMNNetwork'
+    s.dependency 'MMFileService'
+    
 end
     

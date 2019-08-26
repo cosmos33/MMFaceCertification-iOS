@@ -9,6 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 人脸检测结果
+ */
+
 typedef NS_ENUM (NSInteger, MNMatchQualityCode) {
     MNMatchQualityCode_Normal               = 0,
     MNMatchQualityCode_NOFACE               = 50,   // 无脸
