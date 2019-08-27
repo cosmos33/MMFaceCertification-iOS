@@ -42,16 +42,17 @@ pod 'MMFaceCertification'
 
 ### 设置AppId
 
-将下列代码添加到**AppDelegate**类中，这会在应用启动时将AppId注册进SDK，并完成SDK的环境初始化
+请务必在使用SDK前加入如下代码，这会将AppId注册进SDK，并完成SDK的环境初始化
 
 ```
 #import <MMFaceCertification/MNFCService.h>
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     [MNFCService configAppId:<YourAPPId>];
-    return YES;
-}
+    if (![MNFCService isPrepared]) {
+        [MNFCService prepareEnvironment:^(BOOL prepared) {
+
+        }];
+    }
 ```
 
 ## 使用认证功能
