@@ -7,4 +7,5 @@ use_frameworks!
 target 'FaceCertificationDemo' do
   pod 'MMFaceCertification' , :path => '../'
   pod 'MMCV'
+  pod 'MMFileService', '1.1.0-hs'
 end
