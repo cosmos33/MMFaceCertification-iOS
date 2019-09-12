@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     s.dependency 'Protobuf'
     s.dependency 'MMNNetwork'
     s.dependency 'MMFileService'
+    s.dependency 'GPUImage'
     
 end
     

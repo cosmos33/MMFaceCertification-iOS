@@ -43,7 +43,7 @@
         [self handleDetectionResult:personId errorCode:errorCode];
     };
     
-    MNFCThemes *themes = [MNFCThemes new];
+    MNFCThemes *themes = [MNFCThemes defultThemes];
     themes.detectionTitle = @"自定义标题";
     [MNFCService startCertificationWithConfig:config themes:themes];
 }

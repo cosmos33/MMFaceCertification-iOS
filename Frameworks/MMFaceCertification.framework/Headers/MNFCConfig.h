@@ -72,8 +72,18 @@ typedef NS_ENUM (NSInteger, MNFCDetectionType) {
  */
 @interface MNFCThemes : NSObject
 
+// 美颜设置
+@property (nonatomic, assign) CGFloat smoothingAmount;
+@property (nonatomic, assign) CGFloat whitenAmount;
+
+// 界面设置
 @property (nonatomic, copy, nullable) NSString *detectionTitle;
 
+/**
+ 默认主题配置
+ 磨皮 0.6
+ 美白 0.8
+ */
 + (MNFCThemes *)defultThemes;
 
 @end

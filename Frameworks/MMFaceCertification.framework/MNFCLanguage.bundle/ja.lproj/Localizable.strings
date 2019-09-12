@@ -24,3 +24,5 @@
 "tip_detect_make_sure_exit" = "終了しますか？";
 "tip_detect_cancel" = "キャンセル";
 "tip_detect_confirm" = "はい";
+"tip_detect_auth_privacy_tip" = "これは写真ではありません。認証情報は他人には見られません";
+"tip_detect_success_auth" = "証明書で正常にスキャンします";

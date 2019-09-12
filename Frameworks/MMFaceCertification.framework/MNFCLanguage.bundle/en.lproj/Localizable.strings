@@ -24,3 +24,5 @@
 "tip_detect_make_sure_exit" = "Are you sure to quit?";
 "tip_detect_cancel" = "No";
 "tip_detect_confirm" = "Yes";
+"tip_detect_auth_privacy_tip" = "This is not a photo, the authentication information will not be seen by others";
+"tip_detect_success_auth" = "Scan successfully, in certification";

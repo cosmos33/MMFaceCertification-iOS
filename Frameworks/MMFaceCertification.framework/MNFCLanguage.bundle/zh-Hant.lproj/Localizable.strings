@@ -24,3 +24,5 @@
 "tip_detect_make_sure_exit" = "確定退出嗎？";
 "tip_detect_cancel" = "取消";
 "tip_detect_confirm" = "確定";
+"tip_detect_auth_privacy_tip" = "這不是拍照，認證信息不會被別人看到";
+"tip_detect_success_auth" = "掃描成功，認證中";

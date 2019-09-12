@@ -1,7 +1,9 @@
 PODS:
-  - MMCV (1.0.14):
+  - GPUImage (0.2.0)
+  - MMCV (1.0.16):
     - ZipArchive
   - MMFaceCertification (1.0.0):
+    - GPUImage
     - MMCV
     - MMFileService
     - MMNNetwork
@@ -21,6 +23,7 @@ SPEC REPOS:
     - Protobuf
     - ZipArchive
   https://github.com/cosmos33/MMSpecs.git:
+    - GPUImage
     - MMCV
     - MMFileService
     - MMNNetwork
@@ -30,8 +33,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMCV: d647db741faabe2704c4234b4783e1acebb44c24
-  MMFaceCertification: 9d1240f7bd10866be81f3c660d4756dbe4be9872
+  GPUImage: bb92d22b77bd8534e516d4b21039b331a4935d44
+  MMCV: f5a7105408fe42e06558b830e006e21056a6d777
+  MMFaceCertification: ad710faa5cafe14085f56fd891a7c939a5e882e3
   MMFileService: 893fd10add1b27a92054edc752ccb31ccb66883b
   MMNNetwork: 9e8427667415d85861fc598700db38ae456e607d
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a

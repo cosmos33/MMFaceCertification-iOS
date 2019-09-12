@@ -24,3 +24,5 @@
 "tip_detect_make_sure_exit" = "คุณแน่ใจหรือว่าจะเลิก";
 "tip_detect_cancel" = "ยกเลิก";
 "tip_detect_confirm" = "กำหนด";
+"tip_detect_auth_privacy_tip" = "นี่ไม่ใช่ภาพถ่ายบุคคลอื่นจะไม่เห็นข้อมูลการตรวจสอบสิทธิ์";
+"tip_detect_success_auth" = "สแกนสำเร็จในการรับรอง";

@@ -24,3 +24,5 @@
 "tip_detect_make_sure_exit" = "종료 하시겠습니까?";
 "tip_detect_cancel" = "취소";
 "tip_detect_confirm" = "결정";
+"tip_detect_auth_privacy_tip" = "이것은 사진이 아니며 다른 사람이 인증 정보를 볼 수 없습니다";
+"tip_detect_success_auth" = "인증에서 성공적으로 스캔";

@@ -1,6 +1,6 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/MMFaceCertification
 ENABLE_BITCODE = $(inherited) NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "${PODS_CONFIGURATION_BUILD_DIR}/ZipArchive" "${PODS_ROOT}/../../Frameworks" "${PODS_ROOT}/MMCV/Frameworks" "${PODS_ROOT}/MMFileService/Product" "${PODS_ROOT}/MMNNetwork/Frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GPUImage" "${PODS_CONFIGURATION_BUILD_DIR}/Protobuf" "${PODS_CONFIGURATION_BUILD_DIR}/ZipArchive" "${PODS_ROOT}/../../Frameworks" "${PODS_ROOT}/MMCV/Frameworks" "${PODS_ROOT}/MMFileService/Product" "${PODS_ROOT}/MMNNetwork/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "CoreMotion" -framework "MobileCoreServices" -framework "UIKit" -weak_framework "CoreML" -weak_framework "Vision"
 PODS_BUILD_DIR = ${BUILD_DIR}
