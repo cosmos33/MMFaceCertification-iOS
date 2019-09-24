@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  真人检测错误码
+ 注：服务会不断升级，不排除会出现新的错误码
+    出现负值的错误码请参考 NS_ERROR_ENUM(NSURLErrorDomain)
  */
 typedef NS_ENUM (NSInteger, MNFCDetectionError) {
     MNFCDetectionError_None                 = 0,
@@ -30,6 +32,7 @@ typedef NS_ENUM (NSInteger, MNFCDetectionError) {
     MNFCDetectionError_LostFace             = 2005,     // 人脸丢失
     MNFCDetectionError_TooManyFailedCount   = 2006,     // 动作检测失败次数过多
     MNFCDetectionError_NoCameraPermission   = 2007,     // 无相机权限
+    MNFCDetectionError_InvalidBaseFace      = 2010,     // 收集的base脸异常
     
     // 图片检测时会返回的错误
     MNFCDetectionError_LoadImageError       = 3001,     // 图片拉取失败
