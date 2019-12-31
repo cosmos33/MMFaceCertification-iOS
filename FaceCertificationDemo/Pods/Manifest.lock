@@ -1,15 +1,20 @@
 PODS:
   - GPUImage (0.2.0)
-  - MMCV (1.0.16):
+  - MCCSecret (1.0.0)
+  - MMCV (1.1.0):
+    - MCCSecret
     - ZipArchive
   - MMFaceCertification (1.0.0):
     - GPUImage
-    - MMCV
+    - MCCSecret
+    - MMCV (>= 1.1.0)
     - MMFileService
-    - MMNNetwork
+    - MMNNetwork (>= 1.0.5)
+    - MNReferee
     - Protobuf
   - MMFileService (1.1.0-hs)
-  - MMNNetwork (1.0.0)
+  - MMNNetwork (1.0.5)
+  - MNReferee (1.0.0)
   - Protobuf (3.9.0)
   - ZipArchive (1.4.0)
 
@@ -24,9 +29,11 @@ SPEC REPOS:
     - ZipArchive
   https://github.com/cosmos33/MMSpecs.git:
     - GPUImage
+    - MCCSecret
     - MMCV
     - MMFileService
     - MMNNetwork
+    - MNReferee
 
 EXTERNAL SOURCES:
   MMFaceCertification:
@@ -34,10 +41,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GPUImage: bb92d22b77bd8534e516d4b21039b331a4935d44
-  MMCV: f5a7105408fe42e06558b830e006e21056a6d777
-  MMFaceCertification: ad710faa5cafe14085f56fd891a7c939a5e882e3
-  MMFileService: 893fd10add1b27a92054edc752ccb31ccb66883b
-  MMNNetwork: 9e8427667415d85861fc598700db38ae456e607d
+  MCCSecret: 5658f66290969726586eddbdfe45e27731dbfa17
+  MMCV: d073f8afa0c85834b8ed46c690165a9d21b6bf7b
+  MMFaceCertification: b325f6141d5d17bd289f1565ea215661ac669cf2
+  MMFileService: 5df06dcab167f04021c26755fac7db9fa0e164ae
+  MMNNetwork: e95e6b8ce78517e210ab3a2b2d68fa7b34aca035
+  MNReferee: c26ef245ab7c4ab9834ce0ff2f46bf3399fcbb3b
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 

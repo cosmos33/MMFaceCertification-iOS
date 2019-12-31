@@ -33,18 +33,24 @@
   "resources": "Frameworks/MMFaceCertification.framework/*.bundle",
   "dependencies": {
     "MMCV": [
-
+      ">= 1.1.0"
     ],
     "Protobuf": [
 
     ],
     "MMNNetwork": [
-
+      ">= 1.0.5"
     ],
     "MMFileService": [
 
     ],
     "GPUImage": [
+
+    ],
+    "MNReferee": [
+
+    ],
+    "MCCSecret": [
 
     ]
   }
