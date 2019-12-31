@@ -63,6 +63,8 @@ typedef NS_ENUM (NSInteger, MNFCDetectionType) {
  */
 @property (nonatomic, assign) NSUInteger motionDetectionCount;
 
+@property (nonatomic, strong) Class refereeDelegate;
+
 /**
  扫脸结果回调
  */

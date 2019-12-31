@@ -1,7 +1,7 @@
 CLANG_WARN_DOCUMENTATION_COMMENTS = $(inherited) NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/MMCV
 ENABLE_BITCODE = $(inherited) NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZipArchive" "${PODS_ROOT}/MMCV/Frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZipArchive" "${PODS_ROOT}/MCCSecret/Frameworks" "${PODS_ROOT}/MMCV/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 MTL_LANGUAGE_REVISION = Metal12
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "Accelerate" -framework "AssetsLibrary" -framework "CoreImage" -weak_framework "CoreML" -weak_framework "Vision"
