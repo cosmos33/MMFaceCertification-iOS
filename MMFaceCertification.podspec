@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = 'MMFaceCertification'
-    s.version      = '1.0.0'
+    s.version      = '1.1.0.1'
     s.summary      = 'MMFaceCertification Frameworks'
     s.module_name = 'MMFaceCertification'
     s.description      = <<-DESC
@@ -19,13 +19,11 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'Frameworks/**/*.framework'
     s.resource = 'Frameworks/MMFaceCertification.framework/*.bundle'
     
-    s.dependency 'MMCV', '>= 1.1.0'
+    s.dependency 'MMCV'
     s.dependency 'Protobuf'
     s.dependency 'MMNNetwork', '>= 1.0.5'
     s.dependency 'MMFileService'
     s.dependency 'GPUImage'
-    s.dependency 'MNReferee'
-    s.dependency 'MCCSecret'
     
 end
     

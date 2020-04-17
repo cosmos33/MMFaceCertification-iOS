@@ -1,6 +1,0 @@
-framework module MNReferee {
-  umbrella header "MNReferee-umbrella.h"
-
-  export *
-  module * { export * }
-}

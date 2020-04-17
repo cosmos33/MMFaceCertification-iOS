@@ -9,9 +9,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/**
- 日志接受者代理
- */
 @protocol MCCLogDelegate <NSObject>
 
 @required

@@ -6,6 +6,6 @@ platform :ios, '9.0'
 use_frameworks!
 target 'FaceCertificationDemo' do
   pod 'MMFaceCertification' , :path => '../'
-  pod 'MMCV'
-  pod 'MMFileService', '1.1.0-hs'
+  pod 'MMCV', '1.0.16.2'
+  pod 'MMFileService', '1.3.0'
 end
