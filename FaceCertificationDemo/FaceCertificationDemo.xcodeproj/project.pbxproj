@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -385,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EE5R8VDWG7;
+				DEVELOPMENT_TEAM = 4L9LAJK4Y6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceCertificationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -405,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EE5R8VDWG7;
+				DEVELOPMENT_TEAM = 4L9LAJK4Y6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceCertificationDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
