@@ -1,4 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-FaceCertificationDemo/Pods-FaceCertificationDemo-resources.sh
 ${PODS_ROOT}/MMCV/Resources/MomoCVResources.bundle
-${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle
-${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCResources.bundle
+${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle
+${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCResources.bundle
+${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/MNRE_MRCA.cer
+${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/mnreferee_config_data
