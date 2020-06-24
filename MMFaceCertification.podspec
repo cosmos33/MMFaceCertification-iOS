@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
     s.dependency 'MMNNetwork', '>= 1.0.5'
     s.dependency 'MMFileService'
     s.dependency 'GPUImage'
-    s.dependency 'PhotonHTTPDNS'
     
 end
     
