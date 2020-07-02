@@ -7,6 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+
+/**
+ * 检测器类型
+ */
 typedef NS_ENUM(NSUInteger, MCCDetectorType) {
     MCCFaceDetectorTypeNone = 0,
     MCCFaceDetectorTypeFace = 1,                    // 人脸检测
@@ -20,9 +24,15 @@ typedef NS_ENUM(NSUInteger, MCCDetectorType) {
     MCCFaceDetectorTypeHandGesture =9,              // 新版手势检测
     MCCFaceDetectorTypeFaceQuality =10,              //人脸质量检测器
     MCCFaceDetectorType137Face = 11,                 //人脸137检测器
-    MCCFaceDetectorTypeLiveFace = 12                 //直播人脸检测器
+    MCCFaceDetectorTypeLiveFace = 12,                //直播人脸检测器
+    MCCFaceDetectorTypeFaceSegment = 13,             //人脸分割
+    MCCFaceDetectorTypeAttractivenessAnalyzer = 14,  //颜值测试
 };
 
+
+/**
+ * 日志类型
+ */
 typedef NS_ENUM(NSUInteger, MCCErrorLogType) {
     MCCErrorLogTypeNone = 0,
     MCCErrorLogTypeConfigError          = 1,    //config 错误

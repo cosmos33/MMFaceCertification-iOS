@@ -98,13 +98,17 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/MMCV/Resources/MomoCVResources.bundle"
-  install_resource "${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle"
-  install_resource "${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCResources.bundle"
+  install_resource "${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle"
+  install_resource "${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCResources.bundle"
+  install_resource "${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/MNRE_MRCA.cer"
+  install_resource "${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/mnreferee_config_data"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/MMCV/Resources/MomoCVResources.bundle"
-  install_resource "${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle"
-  install_resource "${PODS_ROOT}/../../Frameworks/MMFaceCertification.framework/MNFCResources.bundle"
+  install_resource "${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCLanguage.bundle"
+  install_resource "${PODS_ROOT}/MMFaceCertification/Frameworks/MMFaceCertification.framework/MNFCResources.bundle"
+  install_resource "${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/MNRE_MRCA.cer"
+  install_resource "${PODS_ROOT}/MNReferee/Frameworks/MNReferee.framework/mnreferee_config_data"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
