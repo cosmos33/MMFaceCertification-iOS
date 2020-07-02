@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 use_frameworks!
 target 'FaceCertificationDemo' do
-  pod 'MMFaceCertification' , '1.1.0.2'
+  pod 'MMFaceCertification' , '1.1.0.3-test'
   pod 'MMCV', '1.1.2'
   pod 'MMFileService', '1.3.0'
 end
