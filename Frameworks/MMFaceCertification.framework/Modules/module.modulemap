@@ -1,0 +1,6 @@
+framework module MMFaceCertification {
+  umbrella header "MMFaceCertification-umbrella.h"
+
+  export *
+  module * { export * }
+}

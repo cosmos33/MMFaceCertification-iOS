@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by MOMO on 2019/5/16.
+  
+*/
+
+"tip_detect_real_title" = "การรับรองภาพแทนตัวจริง";
+"tip_detect_front_face" = "ตรวจสอบให้แน่ใจว่าแสงเพียงพอโปรดหันหน้าเข้าหากล้อง";
+"tip_detect_occ_face" = "ใบหน้าถูกปิดกั้นโปรดหันหน้าเข้าหากล้อง";
+"tip_detect_light" = "แสงแรงเกินไปเปลี่ยนตำแหน่ง";
+"tip_detect_dark" = "แสงมืดเกินไปเปลี่ยนตำแหน่ง";
+"tip_detect_blur_face" = "ใบหน้าเบลอกรุณาทำความสะอาดกล้องด้านหน้า";
+"tip_detect_not_center_face" = "โปรดหันหน้ากล้องไปทางด้านหน้า";
+"tip_detect_blink" = "กรุณากระพริบ";
+"tip_detect_open_mouth" = "กรุณาเปิดปากของคุณ";
+"tip_detect_yaw_right" = "กรุณาเลี้ยวขวา";
+"tip_detect_yaw_left" = "กรุณาเลี้ยวซ้าย";
+"tip_detect_pitch_up" = "กรุณายกหัวของคุณ";
+"tip_detect_pitch_down" = "โปรดก้มหัวของคุณ";
+"tip_detect_success" = "สแกนสำเร็จ";
+"tip_detect_preparing" = "การเตรียมสิ่งแวดล้อม";
+"tip_detect_make_sure_exit" = "คุณแน่ใจหรือว่าจะเลิก";
+"tip_detect_cancel" = "ยกเลิก";
+"tip_detect_confirm" = "กำหนด";
+"tip_detect_auth_privacy_tip" = "นี่ไม่ใช่ภาพถ่ายบุคคลอื่นจะไม่เห็นข้อมูลการตรวจสอบสิทธิ์";
+"tip_detect_success_auth" = "สแกนสำเร็จในการรับรอง";

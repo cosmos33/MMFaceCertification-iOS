@@ -1,6 +1,0 @@
-framework module MNFaceCertification {
-  umbrella header "MNFaceCertification-umbrella.h"
-
-  export *
-  module * { export * }
-}
