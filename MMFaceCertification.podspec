@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = 'MMFaceCertification'
-    s.version      = '1.1.0.4'
+    s.version      = '1.1.0.5'
     s.summary      = 'MMFaceCertification Frameworks'
     s.module_name = 'MMFaceCertification'
     s.description      = <<-DESC
