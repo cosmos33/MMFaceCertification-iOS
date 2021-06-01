@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by MOMO on 2019/5/16.
+  
+*/
+
+"tip_detect_real_title" = "Chứng nhận ảnh đại diện thật";
+"tip_detect_front_face" = "Đảm bảo đủ ánh sáng, quay mặt về phía máy ảnh";
+"tip_detect_occ_face" = "Khuôn mặt bị chặn, hãy quay mặt vào máy ảnh";
+"tip_detect_light" = "Ánh sáng quá mạnh, hãy thay đổi vị trí";
+"tip_detect_dark" = "Đèn quá tối, thay đổi vị trí";
+"tip_detect_blur_face" = "Khuôn mặt bị mờ, hãy lau camera trước";
+"tip_detect_not_center_face" = "Vui lòng quay mặt trước máy ảnh";
+"tip_detect_blink" = "Hãy chớp mắt";
+"tip_detect_open_mouth" = "Hãy mở miệng ra";
+"tip_detect_yaw_right" = "Vui lòng rẽ phải";
+"tip_detect_yaw_left" = "Vui lòng rẽ trái";
+"tip_detect_pitch_up" = "Hãy ngẩng đầu lên";
+"tip_detect_pitch_down" = "Xin cúi đầu";
+"tip_detect_success" = "Quét thành công";
+"tip_detect_preparing" = "Chuẩn bị môi trường ...";
+"tip_detect_make_sure_exit" = "Bạn có chắc chắn bỏ việc không?";
+"tip_detect_cancel" = "Không";
+"tip_detect_confirm" = "Có";
+"tip_detect_auth_privacy_tip" = "Đây không phải là ảnh, thông tin xác thực sẽ không bị người khác nhìn thấy";
+"tip_detect_success_auth" = "Quét thành công, được chứng nhận";
